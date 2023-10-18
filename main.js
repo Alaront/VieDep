@@ -21,6 +21,7 @@ document.querySelector('#app').innerHTML = `
   </div>
 `
 
-
+// получить объект со всеми NVM
+console.log(import.meta.env)
 
 setupCounter(document.querySelector('#counter'))
